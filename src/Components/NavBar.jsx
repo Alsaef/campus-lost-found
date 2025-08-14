@@ -17,7 +17,7 @@ const NavBar = () => {
 
         <li ><button className='btn btn-success text-white mx-1 lg:my-0 my-2' onClick={() => document.getElementById('my_modal_1').showModal()}>Report Lost Item</button></li>
         <li><button className='btn btn-primary mx-1' onClick={() => document.getElementById('my_modal_3').showModal()}>Report Found Item</button></li>
-        <li><button className='btn btn-primary mx-1' onClick={() => document.getElementById('my_modal_4').showModal()}>Contact Admin</button></li>
+        <li><button className='btn btn-primary mx-1 lg:my-0 my-2' onClick={() => document.getElementById('my_modal_4').showModal()}>Contact Admin</button></li>
     </>
     return (
         <div>
