@@ -34,7 +34,7 @@ const NavBar = () => {
                             {navItem}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost  text-xl "> <img width={50} height={50} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDIZUAC0DRaDfECWg6yhd-6Frvgk1KLSHiJo8Hs91qmEdC2PzOP99ABExLHqlGXD86AjA&usqp=CAU' alt="" /><span className='lg:inline-flex hidden'> Campus Lost & Found</span></a>
+                    <a className="btn btn-ghost  text-xl "> <img width={50} height={50} src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDIZUAC0DRaDfECWg6yhd-6Frvgk1KLSHiJo8Hs91qmEdC2PzOP99ABExLHqlGXD86AjA&usqp=CAU' alt="" /><span className='lg:inline-flex hidden'>Campus Lost & Found</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
