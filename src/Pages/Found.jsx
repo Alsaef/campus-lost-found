@@ -7,7 +7,7 @@ import axiosInstance from '../hook/axiosInstance';
 const Found = () => {
 
     const { search, handleSearchChange } = useSearch();
-    console.log(search);
+    
     const { items, isLoading,refetch } = useFoundSearch(search);
 
     const handleClaim = async (id) => {

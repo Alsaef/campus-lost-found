@@ -16,7 +16,7 @@ const LostFrom = ({closeModal}) => {
       const onSubmit = async (data) => {
         try {
 
-            console.log(data);
+            
             const Data = {
 
                 contact: data.contact,
@@ -31,7 +31,7 @@ const LostFrom = ({closeModal}) => {
 
             const res= await axiosInstance.post('/lost',Data)
 
-            console.log(res.data);
+        
 
             if (res.data===200) {
                 alert('post success')
@@ -41,7 +41,7 @@ const LostFrom = ({closeModal}) => {
             }
 
         } catch (err) {
-            console.log(err.message);
+            
         }
     };
 

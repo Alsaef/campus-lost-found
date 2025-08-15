@@ -27,9 +27,9 @@ export const AuthProvider = ({ children }) => {
      const res= await axiosInstance.post("/login", data);
       await fetchUser();
 
-      console.log(res);
+    
     } catch (err) {
-      console.log('error');
+      
       throw new Error(err.response?.data?.error || "Login failed");
     }
   };

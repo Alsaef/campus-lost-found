@@ -5,7 +5,7 @@ import useSearch from '../hook/useSearch';
 const Cliemd = () => {
 
   const { search, handleSearchChange } = useSearch();
-    console.log(search);
+    
     const {items,isLoading}=useFoundSearch(search)
 
     return (

@@ -15,7 +15,7 @@ const Login = ({ onLoginSuccess }) => {
       await login(data);
       if (onLoginSuccess) onLoginSuccess();
     } catch (err) {
-      console.log(err.message);
+      
     }
   };
 

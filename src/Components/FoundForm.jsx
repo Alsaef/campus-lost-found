@@ -15,7 +15,7 @@ const FoundForm = ({closeModal}) => {
     const onSubmit = async (data) => {
         try {
 
-            console.log(data);
+            
             const Data = {
 
                 contact: data.contact,
@@ -30,7 +30,7 @@ const FoundForm = ({closeModal}) => {
 
             const res= await axiosInstance.post('/found',Data)
 
-            console.log(res.data);
+            
 
             if (res.data===200) {
                 alert('post success')
@@ -40,7 +40,7 @@ const FoundForm = ({closeModal}) => {
             }
 
         } catch (err) {
-            console.log(err.message);
+          
         }
     };
 

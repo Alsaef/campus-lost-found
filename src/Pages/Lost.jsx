@@ -6,7 +6,7 @@ import axiosInstance from '../hook/axiosInstance';
 const Lost = () => {
 
     const { search, handleSearchChange } = useSearch();
-    console.log(search);
+
     const { items ,refetch } = useFoundSearch(search)
     const handleClaim = async (id) => {
         try {
